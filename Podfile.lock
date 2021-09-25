@@ -1,0 +1,44 @@
+PODS:
+  - AMTabView (0.1.2)
+  - FanMenu (0.7.5):
+    - Macaw
+  - IQKeyboardManagerSwift (6.5.6)
+  - JBTabBarAnimation (1.0.0)
+  - Kingfisher (6.2.1)
+  - Macaw (0.9.7):
+    - SWXMLHash
+  - SwiftValidators (9.0.3)
+  - SWXMLHash (5.0.1)
+
+DEPENDENCIES:
+  - AMTabView
+  - FanMenu
+  - IQKeyboardManagerSwift
+  - JBTabBarAnimation
+  - Kingfisher
+  - SwiftValidators
+
+SPEC REPOS:
+  trunk:
+    - AMTabView
+    - FanMenu
+    - IQKeyboardManagerSwift
+    - JBTabBarAnimation
+    - Kingfisher
+    - Macaw
+    - SwiftValidators
+    - SWXMLHash
+
+SPEC CHECKSUMS:
+  AMTabView: b8a74f5ea27ec367d8f6fa614ebc77be9af38064
+  FanMenu: f26be76147954666be0b89ae6ffeb12b72167f2b
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  JBTabBarAnimation: 34a3d3abc0f53bd3baaa69cb8610be7236aa6d31
+  Kingfisher: e71c6fac2aebb1262888cabc2cb13d313362a48f
+  Macaw: 4a931baf9a9826b06d0d8ecf300014c962ab9d50
+  SwiftValidators: b1cb650ce02ef6ad894f1d471f970b249c794342
+  SWXMLHash: 9cc0c2e4807926c74377724aa8722ee5707a0485
+
+PODFILE CHECKSUM: 2c424718288e5fd994c3c3c96759b9b07a2655ca
+
+COCOAPODS: 1.10.1

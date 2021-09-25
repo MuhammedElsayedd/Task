@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "42189E02-222C-4069-9739-944432DDC774"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A022FDB9-4CDE-4871-B9A9-701B91AF26C9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TASK/Core/UseCases/Lists/BaseListUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "process(_:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A022FDB9-4CDE-4871-B9A9-701B91AF26C9 - 4c67bc338d00a393"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TASK.Result&lt;TASK.ApiResponse&lt;A&gt;&gt;) -&gt; () in TASK.BaseListUseCase.process&lt;A where A: Swift.Decodable&gt;(_: A.Type, completionHandler: (TASK.Result&lt;A&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TASK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhammedelsayed/Desktop/eBakers%20Projects/TASK/TASK/Core/UseCases/Lists/BaseListUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "373">
+               </Location>
+               <Location
+                  uuid = "A022FDB9-4CDE-4871-B9A9-701B91AF26C9 - 4c67bc338d00a393"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TASK.Result&lt;TASK.ApiResponse&lt;A&gt;&gt;) -&gt; () in TASK.BaseListUseCase.process&lt;A where A: Swift.Decodable&gt;(_: A.Type, completionHandler: (TASK.Result&lt;A&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TASK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhammedelsayed/Desktop/eBakers%20Projects/TASK/TASK/Core/UseCases/Lists/BaseListUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "411">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9A8EEF49-AE52-466F-8DA9-BC7BEDFC32CE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TASK/Core/UseCases/Lists/BaseListUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "process(_:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

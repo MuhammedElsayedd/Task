@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HomeCell" customModule="TASK" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="246" height="202"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="246" height="202"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MOs-ri-eQ9" customClass="CustomView" customModule="TASK" customModuleProvider="target">
+                        <rect key="frame" x="8" y="8" width="230" height="186"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coming_soon" translatesAutoresizingMaskIntoConstraints="NO" id="IQa-qv-r7z">
+                                <rect key="frame" x="0.0" y="0.0" width="230" height="130"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6m5-r4-7fT">
+                                <rect key="frame" x="8" y="134" width="214" height="19.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Fi-Tg-6mk">
+                                <rect key="frame" x="8" y="157.5" width="214" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="IQa-qv-r7z" firstAttribute="height" secondItem="MOs-ri-eQ9" secondAttribute="height" multiplier="0.7" id="0FY-Vq-4qx"/>
+                            <constraint firstItem="9Fi-Tg-6mk" firstAttribute="top" secondItem="6m5-r4-7fT" secondAttribute="bottom" constant="4" id="0sd-Z8-wHK"/>
+                            <constraint firstItem="IQa-qv-r7z" firstAttribute="leading" secondItem="MOs-ri-eQ9" secondAttribute="leading" id="DCT-mi-vHc"/>
+                            <constraint firstAttribute="trailing" secondItem="9Fi-Tg-6mk" secondAttribute="trailing" constant="8" id="G6f-VK-oOg"/>
+                            <constraint firstItem="6m5-r4-7fT" firstAttribute="leading" secondItem="MOs-ri-eQ9" secondAttribute="leading" constant="8" id="X9U-dz-acL"/>
+                            <constraint firstItem="IQa-qv-r7z" firstAttribute="top" secondItem="MOs-ri-eQ9" secondAttribute="top" id="a9s-Ww-YVX"/>
+                            <constraint firstAttribute="trailing" secondItem="IQa-qv-r7z" secondAttribute="trailing" id="akp-Tf-N8N"/>
+                            <constraint firstAttribute="trailing" secondItem="6m5-r4-7fT" secondAttribute="trailing" constant="8" id="fDY-UX-dVg"/>
+                            <constraint firstItem="6m5-r4-7fT" firstAttribute="top" secondItem="IQa-qv-r7z" secondAttribute="bottom" constant="4" id="kRa-DJ-4xQ"/>
+                            <constraint firstItem="9Fi-Tg-6mk" firstAttribute="leading" secondItem="MOs-ri-eQ9" secondAttribute="leading" constant="8" id="uHZ-fC-Xcj"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuscostom">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="0.29999999999999999"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="0.10000000000000001" height="0.10000000000000001"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" red="0.1764705882352941" green="0.1764705882352941" blue="0.1764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="MOs-ri-eQ9" secondAttribute="trailing" constant="8" id="6Se-Xw-3AN"/>
+                <constraint firstItem="MOs-ri-eQ9" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="ITR-nz-qcw"/>
+                <constraint firstItem="MOs-ri-eQ9" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="a9H-W5-CBK"/>
+                <constraint firstAttribute="bottom" secondItem="MOs-ri-eQ9" secondAttribute="bottom" constant="8" id="lDo-zo-Atp"/>
+            </constraints>
+            <size key="customSize" width="246" height="202"/>
+            <connections>
+                <outlet property="categoryLabel" destination="9Fi-Tg-6mk" id="wvq-jt-sbo"/>
+                <outlet property="image" destination="IQa-qv-r7z" id="FUz-ei-G22"/>
+                <outlet property="titleLabel" destination="6m5-r4-7fT" id="31L-3J-VUs"/>
+            </connections>
+            <point key="canvasLocation" x="195.6521739130435" y="128.57142857142856"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="coming_soon" width="21" height="21"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

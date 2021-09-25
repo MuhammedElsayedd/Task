@@ -1,0 +1,9 @@
+${PODS_ROOT}/Target Support Files/Pods-TASK/Pods-TASK-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AMTabView/AMTabView.framework
+${BUILT_PRODUCTS_DIR}/FanMenu/FanMenu.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/JBTabBarAnimation/JBTabBarAnimation.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/Macaw/Macaw.framework
+${BUILT_PRODUCTS_DIR}/SWXMLHash/SWXMLHash.framework
+${BUILT_PRODUCTS_DIR}/SwiftValidators/SwiftValidators.framework

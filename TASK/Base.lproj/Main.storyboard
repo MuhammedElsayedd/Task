@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1Xo-wj-h6V">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Custom Tab Controller-->
+        <scene sceneID="jZ6-3a-ih0">
+            <objects>
+                <tabBarController storyboardIdentifier="InitialTabBar" id="1Xo-wj-h6V" customClass="CustomTabController" customModule="TASK" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6zT-mJ-fsY" customClass="CustomizedTabBar" customModule="TASK" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" systemColor="systemGreenColor"/>
+                        <color key="selectedImageTintColor" systemColor="systemPinkColor"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="MzJ-Zi-oeT" kind="relationship" relationship="viewControllers" id="ySG-zH-lLe"/>
+                        <segue destination="Azr-vU-IlF" kind="relationship" relationship="viewControllers" id="lwY-0G-RHQ"/>
+                        <segue destination="v1f-x5-BUC" kind="relationship" relationship="viewControllers" id="Wng-qU-0Ac"/>
+                        <segue destination="TCw-9q-thT" kind="relationship" relationship="viewControllers" id="bkS-4D-GzR"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mvs-Di-dsa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1404" y="-920"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="eaM-ho-e6B">
+            <objects>
+                <navigationController id="TCw-9q-thT" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="profile_grey_bottom_icon" selectedImage="profile_bottom_icon" id="urE-GO-ulh"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qHx-bQ-6H9">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="nlj-GW-99s" kind="relationship" relationship="rootViewController" id="Cxu-aj-RmR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EbP-2e-8Vo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2812" y="-134"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Ie1-qi-IJ9">
+            <objects>
+                <navigationController id="Azr-vU-IlF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="search_grey_bottom_icon" selectedImage="search_bottom_icon" id="gD1-Iw-1Ql"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DN6-1z-SpL">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vzY-eh-1p8" kind="relationship" relationship="rootViewController" id="Zzn-vK-iGE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aRt-GL-E4c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1049" y="-150"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="TRC-6H-ZWb">
+            <objects>
+                <navigationController id="MzJ-Zi-oeT" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="Home_grey_bottom_icon" selectedImage="Home_bottom_icon" id="kI7-0e-oak">
+                        <color key="badgeColor" red="0.0" green="0.65991652010000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="J3h-ce-IvD">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="hDk-Vl-tZW" kind="relationship" relationship="rootViewController" id="bwf-Wr-V76"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jdh-qD-jf5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="100" y="-150"/>
+        </scene>
+        <!--ProfileVC-->
+        <scene sceneID="C3j-ZP-v3E">
+            <objects>
+                <viewController id="nlj-GW-99s" customClass="ProfileVC" customModule="TASK" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="85G-bZ-3Cp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RsQ-MX-7D9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2812" y="638"/>
+        </scene>
+        <!--SearchVC-->
+        <scene sceneID="B5b-ut-AsY">
+            <objects>
+                <viewController id="vzY-eh-1p8" customClass="SearchVC" customModule="TASK" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="FSu-ac-hEi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fYz-lh-LhJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1048" y="605"/>
+        </scene>
+        <!--PrizeVC-->
+        <scene sceneID="lgQ-kl-e0k">
+            <objects>
+                <viewController id="dpe-5Y-26a" customClass="PrizeVC" customModule="TASK" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="hME-lJ-wVT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6IH-jG-yv0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1922" y="605"/>
+        </scene>
+        <!--HomeVC-->
+        <scene sceneID="r03-lt-hcT">
+            <objects>
+                <viewController id="hDk-Vl-tZW" customClass="HomeVC" customModule="TASK" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="gqG-sV-VHn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FUR-7Y-8pf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="100" y="605"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="rHv-Bf-syz">
+            <objects>
+                <navigationController id="v1f-x5-BUC" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="Group 100" selectedImage="Combined-Shape" id="JHe-BK-M7O"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZVb-tt-nPF">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="dpe-5Y-26a" kind="relationship" relationship="rootViewController" id="bDE-3U-fAH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4iI-03-Aa6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1922" y="-150"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Combined-Shape" width="28" height="28"/>
+        <image name="Group 100" width="28" height="28"/>
+        <image name="Home_bottom_icon" width="29" height="29"/>
+        <image name="Home_grey_bottom_icon" width="29" height="29"/>
+        <image name="profile_bottom_icon" width="22" height="30"/>
+        <image name="profile_grey_bottom_icon" width="22" height="30"/>
+        <image name="search_bottom_icon" width="30" height="30"/>
+        <image name="search_grey_bottom_icon" width="30" height="30"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
